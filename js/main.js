@@ -130,4 +130,4 @@ $(document).ready(function() {
   }
 });
 
-var animatedBounce = setInterval("doSomething()", 5000);
+var h1 = setInterval("doSomething()", 5000);
