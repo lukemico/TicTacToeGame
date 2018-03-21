@@ -1,3 +1,9 @@
+// $(document).ready(function() {
+//   $("#loader loader-double").each(function() {
+//     animationHover(this, "fadeOut");
+//   });
+// });
+
 $(document).ready(function() {
   $(function() {
     var player = 1;
@@ -131,3 +137,9 @@ $(document).ready(function() {
 });
 
 var h1 = setInterval("doSomething()", 5000);
+
+$('.first').addClass('animated fadeInUp');
+
+setTimeout(function () {
+    $('.first').show().addClass('animated fadeInUp');}, 1500
+);
